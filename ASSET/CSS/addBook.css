@@ -1,0 +1,27 @@
+.lb_image{
+    margin-top: 165px;
+}
+.lb_author{
+    padding-bottom: 0px;
+}
+.lb_publisher{
+    padding-bottom: 10px;
+}
+.ip_value{
+    margin-bottom: 43px;
+}
+.title_value{
+    min-width: 295px;
+}
+.nb_value-container{
+    display: flex;
+}
+.nb_value{
+    margin-top: 2px;
+    width: 100px;
+}
+.lb_value{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #333;
+}

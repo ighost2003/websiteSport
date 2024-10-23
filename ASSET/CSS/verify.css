@@ -1,0 +1,40 @@
+.text-vr{
+    border: none;
+}
+.input-vr{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: calc(100% - 70px);
+}
+.submit-vr{
+    width: 100px;
+    height: 33px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: none;
+}
+.login-background{
+    height: 300px;
+}
+.fail-vr{
+    margin-left: 10px;
+}
+.back-vr-a{
+    text-decoration: none;
+    color: black;
+    line-height: 1px;
+    margin-top: 10px;
+}
+.back-vr-a:hover{
+    color: black;
+}
+.back-vr{
+    width: 100px;
+    height: 32px;
+    padding-top: 2px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 1px;
+    text-align: center;
+}

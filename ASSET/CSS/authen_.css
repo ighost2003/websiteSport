@@ -1,0 +1,156 @@
+:root{
+    --primary-background-color: linear-gradient(163deg, rgba(177,59,122,1) 0%, rgba(125,226,237,1) 22%, rgba(246,105,167,1) 100%);
+}
+body{
+    position: relative;
+    background: var(--primary-background-color);
+    height: 673px;
+}
+.body-register{
+    position: relative;
+    background: var(--primary-background-color);
+    height: 800px;
+}
+.login-background{
+    margin: auto;
+    margin-top: 80px;
+    width: 400px;
+    height: 600px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+.register-background{
+    margin: auto;
+    margin-top: 50px;
+    width: 450px;
+    min-height: 680px;
+    padding: 20px 40px 40px 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+.login-text{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 26px;
+    font-family: bold;
+    font-weight: bold;
+}
+.register-text{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 26px;
+    font-family: bold;
+    font-weight: bold;
+}
+.form-control{
+    margin: 0px;
+    padding: 10px;
+}
+.lb{
+    margin-top: 10px;
+}
+.login-btn{
+    background: var(--primary-background-color);
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+}
+.login-btn-fb{
+    position: relative;
+    background: #1e2a6e;
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 140px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.btn-icon{
+    position: absolute;
+    font-size: 35px;
+    right: 100px;
+    bottom: 7px;
+}
+.btn-text{
+    position: absolute;
+    left: 50px;
+    bottom: 12px;
+}
+.login-btn:hover{
+    background: linear-gradient(163deg, rgba(172,31,106,1) 22%, rgba(160,230,237,1) 67%, rgba(137,189,211,1) 73%, rgba(246,105,167,1) 100%);
+}
+.question-signup{
+    font-size: 14px;
+    color: #555;
+}
+.text-order-login{
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+/*-----------------------------*/
+.index-body{
+    background-image: url("../image/hom-background.png");
+    background-position: -2em;
+}
+
+.nav{
+    color: white;
+}
+.tg-btn{
+    margin: 200px 0px 0px 100px;
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 30px;
+    background: #fff;
+    position: relative;
+}
+#circle-btn{
+    /* background-color: rgb(251, 135, 195); */
+    background-color: #8f8b8b;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translateX(-4px);
+    position: relative;
+}
+.btn-text-press{
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    right: 3px;
+    top: 9px;
+    margin: auto;
+}
+
+.nav{
+    background-color: rgb(72, 24, 87);
+    height: 45px;
+    border: none;
+}
+.active, .nav-link{
+    height: 100%;
+    color: aqua;
+}
+.active{
+    background: var(--primary-background-color);
+}
+.nav-link{
+    line-height: 25px;
+}
+.nav-link:hover{
+    color: aqua;
+}
+.rpswd{
+    color: red;
+    font-size: 14px;
+}

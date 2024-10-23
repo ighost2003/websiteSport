@@ -1,0 +1,113 @@
+:root{
+    --while-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --primary-color:#ce5c87;
+    --text2-color: #c97e9c;
+    --items-color1:#1d1256;
+    --items-color:#0a356e;
+    --hover-colr:#f7e7ea;
+    --border-color:#dbdbdb;
+    --text3-color: #6B6B6B;
+    --price-color: #c02026;
+    --text4-color: #232323;
+}
+
+.product-main{
+    display: flex;
+    margin-left: 160px;
+    border-top: 1px solid #8888;
+    padding-top: 40px;
+}
+.product-main_img{
+    width: 245px;
+    height: 350px;
+    object-fit: cover;
+}
+.product-main_info{
+    margin: 0px 105px 0px 45px;
+    width: 500px;
+    height: 400px;
+}
+.product-main_title{
+    margin: 0px 0px 20px 0px;
+    font-weight: unset;
+    color: var(--text4-color);
+
+}
+.product-main_decribe{
+    margin: 10px 0px 0px 0px;
+    padding-top: 8px;
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+     overflow: hidden;
+    -webkit-line-clamp: 9;
+    color: var(--text3-color);
+    border-top: 1px dashed var(--text3-color);
+}
+.product-main_decribe-more{
+    text-decoration: underline;
+}
+
+.product-main_pay{
+    padding: 15px;
+    width: 270px;
+    height: 340px;
+    background-color: var(--while-color);
+    border: 7px solid var(--border-color);
+    border-radius: 10px;
+}
+.pay_title{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed var(--border-color);
+    font-size: 23px;
+}
+.pay_old-price ,.pay_new-price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    color: var(--text-color);
+}
+.pay_old-price{
+    margin-bottom: 25px;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.new-price{
+    font-size: 23px;
+    color: var(--price-color);
+}
+.pay_new-price{
+    padding-bottom: 40px;
+    border-bottom: 1px dashed var(--border-color);
+}
+.pay_transport{
+    padding-bottom: 40px;
+}
+.pay_transport-heading{
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.pay_trasport-decribe{
+    margin-bottom: 5px;
+    color: var(--text3-color);
+}
+.pay_transport-sup-decribe{
+    color: var(--text3-color);
+}
+.pay_transport-button{
+    text-align: center;
+}
+.pay-button{
+    width: 230px;
+    height: 41px;
+    background-color: #ffc705;
+    border: none;
+    border-radius: 3px;
+}
+.pay-button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,231 @@
+:root{
+    --sp-color: rgb(13, 7, 40);
+    --bg-color: rgb(238, 150, 207);
+}
+.Header_center_input, .Header_center_signiu-list-nocart-a, .header_cart-amout, .Header_top_list{
+    display: none;
+}
+main{
+}
+h3{
+    margin-top: 50px;
+    text-align: center;
+    color: palevioletred;
+    font-size: 30px;
+}
+form{
+    justify-content: center;
+}
+.sp-content{
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.sp-sendto{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    border: 2px solid rgb(188, 182, 185);
+    border-radius: 5px;
+}
+textarea:focus{
+    outline: var(--bg-color);
+    border: 3px solid var(--bg-color);
+}
+.btn{
+    position: relative;
+    right: 0px;
+    color: var(--sp-color);
+    border-radius: 3px;
+    border: 1px solid #888;
+}
+.btn:hover{
+    border: 1px solid var(--bg-color);
+    color: var(--bg-color);
+}
+.sp-mail{
+    border: 1px solid #999;
+    padding: 30px;
+    margin-right: 25px;
+    color: var(--sp-color);
+    border-radius: 5px;
+}
+.sp-tel{
+    border: 1px solid #999;
+    padding: 30px 52px;
+    margin-left: 20px;
+    color: var(--sp-color);
+    border-radius: 5px;
+}
+.sp-icon{
+    margin-right: 10px;
+}
+.sp-tel:hover{
+    border: 1px solid var(--bg-color);
+    color: var(--bg-color);
+}
+.sp-mail:hover{
+    border: 1px solid var(--bg-color);
+    color: var(--bg-color);
+}
+main{
+    position: relative;
+}
+.viewFeedback{
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+    border: 1px solid #999;
+    padding: 10px 5px;
+}
+.viewFeedback:hover{
+    border: 1px solid var(--bg-color);
+    color: var(--bg-color);
+}
+/*============================================*/
+.fb-content{
+    margin: auto;
+    width: 50%;
+    padding-left: 215px;
+}
+.fb-question, .fb-feedback{
+    border: 1px solid #999;
+    width: 526px;
+    min-height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+p{
+    margin: 8px 0px 0px 10px;
+}
+.fb-question{
+
+}
+.fb-feedback{
+
+}
+form{
+    position: relative;
+    margin-top: 40px;
+}
+.fb-rep-lbl{    
+    position: absolute;
+    top: 10px;
+    background-color: white;
+    left: 13px;
+    color: var(--bg-color);
+    font-size: 17px;
+}
+.fb-rep-txta{
+    padding-top: 16px;
+    padding-left: 10px;
+}
+.fb-rep-txta:focus ~ .fb-rep-lbl{
+    color: var(--bg-color);
+}
+.fb-send-btn{
+    position: absolute;
+    left: 65.4%;
+}
+.fb-send-btn:hover{
+    cursor: pointer;
+    color: var(--bg-color);
+}
+.sp-sendto{
+    padding-top: 80px;
+}
+.fb-question{
+    margin-top: 100px;
+}
+.fb-feedback{
+    margin-top: 30px;
+}
+.fb-question, .fb-feedback{
+    position: relative;
+    padding-top: 17px;
+    padding-bottom: 10px;
+}
+.fb-question-lbl, .fb-feedback-lbl{
+    position: absolute;
+    top: -10px;
+    background-color: white;
+    left: 13px;
+    color: var(--bg-color);
+    font-size: 17px;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.fb-delete{
+    position: absolute;
+    text-align: center;
+    width: 38px;
+    padding: 2px 0px;
+    top: -1px;
+    right: -1px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+}
+.fb-delete:hover{
+    color: var(--bg-color);
+}
+.fb-time{
+    position: absolute;
+    right: 45px;
+    top: -20px;
+}
+/*=================admin=====================*/
+.ad-sp-main{
+    display: flex;
+}
+.ad-fb-user{
+    text-decoration: none;
+}
+ol{
+    padding-left: 115px;
+}
+li{
+    padding-bottom: 4px;
+}
+.ad-fb-user:hover{
+    text-decoration: underline;
+    color: var(--bg-color);
+}
+.ad-fb-form{
+    padding-right: 270px;
+}
+.ad-fb-txta{
+    padding: 10px 0px 0px 10px;
+    margin-top: -20px;
+}
+.ad-fb-btn{
+    border: 1px solid #999;
+    position: absolute;
+    right: -130px;
+}
+.ad-fb-btn:hover{
+    cursor: pointer;
+    color: var(--bg-color);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.ad-fb-question-lbl{
+    background-color: rgb(198, 242, 242);
+    border-radius: 4px;
+}
+.ad-fb-content{
+    padding-right: 200px;
+    padding-bottom: 200px;
+    padding-left: 70px;
+}
+.ad-fb-heading{
+    margin-left: 130px;
+}
