@@ -281,7 +281,7 @@ class VerifyEmail {
                 } 
             } 
         } 
-
+//
         if ($this->stream === FALSE) { 
             $this->set_error("All connection fails"); 
             $this->edebug($this->ErrorInfo); 
@@ -391,7 +391,7 @@ class VerifyEmail {
 class verifyEmailException extends Exception { 
 
     /** 
-     * Prettify error message output 
+     * Prettify error message outputttttttt
      * @return string 
      */ 
     public function errorMessage() {

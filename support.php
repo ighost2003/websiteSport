@@ -32,7 +32,7 @@ if(isset($_SESSION['ms-sp'])){
     <?php require 'header.php' ?>
     <main>
         <div>
-            <h3 >Xin chào! Hãy nhập câu hỏi của bạn</h3>
+            <h3 >Xin chào!  Bạn hãy nhập câu hỏi của bạn</h3>
             <div class="sp-content">
                 <form action="supportHandle.php?con=1" method="post">
                     <textarea name="question" id="" cols="60" rows="15" required></textarea>
