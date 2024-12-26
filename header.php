@@ -13,7 +13,7 @@
                 <li class="Header_top_list-items">
                     <a class="Header_top_list-items-a" href="">
                         <i class="fa-solid fa-mobile-screen"></i>
-                        <span>TVUSport</span>
+                        <span>NPXSport</span>
                     </a>
 
                 </li>
@@ -27,7 +27,7 @@
                 <div class="Header_center_logo">
 
                     <a href="index.php">
-                        <h1 class="Header_center_logo-a">TVUSport</h1>
+                        <h1 class="Header_center_logo-a">NPXSport</h1>
 
                     </a>
 

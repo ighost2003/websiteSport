@@ -45,7 +45,7 @@
             </div>
         </div>
     </div>
-    <div class="modal-signin modal">
+    <div class="modal-signin modal"></div>
         <div class="modal_ovl"></div>
         <div class="modal_body">
             <div class="auth-form">

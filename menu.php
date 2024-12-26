@@ -12,10 +12,10 @@
                         if(isset($_SESSION['role']) && $_SESSION['role']=="3"){
                             echo'
                             <li class="menu_item">
-                                <a class="menu_item-link" href="bookManager/View.php">Sách</a>
+                                <a class="menu_item-link" href="bookManager/View.php">Quần áo</a>
                             </li>
                             <li class="menu_item">
-                                <a class="menu_item-link" href="bkcategory/categoryView.php">Quốc gia sách</a>
+                                <a class="menu_item-link" href="bkcategory/categoryView.php">Quốc gia</a>
                             </li>
                             <li class="menu_item">
                                 <a class="menu_item-link" href=""Chất liệu></a>
@@ -24,7 +24,7 @@
                                 <a class="menu_item-link" href="">Nhà sản xuất</a>
                             </li>
                             <li class="menu_item">
-                                <a class="menu_item-link" href="">Danh mục loại sách</a>
+                                <a class="menu_item-link" href="">Danh mục</a>
                             </li>
                             <li class="menu_item">
                                 <a href="admin/orderOAdmin.php" class="menu_item-link">Đơn hàng</a>

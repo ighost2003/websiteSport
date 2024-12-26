@@ -7,24 +7,24 @@
                         <a href="footer_top-link">Hotline: 0915629981</a>
                     </li>
                     <li class="footer_top-item">
-                        <a href="footer_top-link">Kiều Chí Nguyện</a>
-                    </li>
-                    <li class="footer_top-item">
                         <a href="footer_top-link">Chuyên viên tư vấn</a>
                     </li>
                 </ul>
             </div>
             <div class="footer_top-nav">
-                <h3 class="footer_top-heading">GIỚI THIỆU</h3>
+                <h3 class="footer_top-heading">CHÍNH SÁCH</h3>
                 <ul class="footer_top-list">
                     <li class="footer_top-item">
-                        <a href="footer_top-link">divac divac divdc dicdc</a>
+                        <a href="footer_top-link">Chính sách bảo hành</a>
                     </li>
                     <li class="footer_top-item">
-                        <a href="footer_top-link">divac divac divdc dicdc</a>
+                        <a href="footer_top-link">Chính sách đổi trả</a>
                     </li>
                     <li class="footer_top-item">
-                        <a href="footer_top-link">divac divac divdc dicdc</a>
+                        <a href="footer_top-link">Chính sách giao nhận hàng</a>
+                    </li>
+                    <li class="footer_top-item">
+                        <a href="footer_top-link">Khách hàng thân thiết</a>
                     </li>
                 </ul>
             </div>

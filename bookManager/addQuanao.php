@@ -33,7 +33,7 @@ session_start();
         <div class="container">
             <?php require_once '../menu.php' ?>
             <div class="crud-user">
-                <h3 class="crud-user_heading">Thêm áo</h1>
+                <h3 class="crud-user_heading">Thêm áo</h3>
                     <!--CRUD -->
                         <form action="View.php" method="post" enctype="multipart/form-data">
                             <input type="hidden" name="sid2" value="<?php echo $_GET['sid2'] ?>">
@@ -45,7 +45,7 @@ session_start();
                                         <span class="crud-user_add-name lb_avatar lb_image">Ảnh minh họa:</span><br>
                                         <span class="crud-user_add-name lb_avatar lb_author">Chất liệu:</span><br>
                                         <span class="crud-user_add-name lb_address lb_category">Quốc Gia:</span><br>
-                                        <span class="crud-user_add-name lb_password lb_publisher">Nhà xuất bản:</span><br>
+                                        <span class="crud-user_add-name lb_password lb_publisher">Nhà sản xuất :</span><br>
                                         <span class="crud-user_add-name lb_role lb_price">Giá:<span class="highlight">*</span></span>
                                         <span class="crud-user_add-name lb_role lb_discount">Giảm giá:</span>
                                         <span class="crud-user_add-name lb_role lb_amount">Số lượng tồn:<span class="highlight">*</span></span>
@@ -60,7 +60,8 @@ session_start();
                                         </div>
                                         <select class="crud-user_add-value ip_value" name="author[]" id=""><br>
                                         <?php 
-                                            $selectsql = "SELECT TenTenCLTG FROM chatlieu";
+                                            $selectsql = "SELECT TenCL FROM chatlieu";
+
                                             $result = mysqli_query($conn,$selectsql);
                                             while($row = mysqli_fetch_assoc($result)){
                                                 echo"<option value='".$row['TenCL']."'>" .$row['TenCL']. "</option>"; }

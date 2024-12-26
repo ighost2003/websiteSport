@@ -34,7 +34,7 @@
     // Kiểm tra thêm vào giỏ hàng
     if (isset($_GET['id']) && $_GET['action'] === "add2") {
         if (isset($_SESSION['Email-all'])) {
-            $select = "SELECT SoluongTon FROM mauao WHERE mauao ='{$_GET['id']}' AND SoluongTon > 0";
+            $select = "SELECT SoluongTon FROM mauao WHERE ma = '".mysqli_real_escape_string($conn, $_GET['id'])."' AND SoluongTon > 0";
             $result = mysqli_query($conn, $select);
             
             if (mysqli_num_rows($result) > 0) {

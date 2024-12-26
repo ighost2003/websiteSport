@@ -109,11 +109,11 @@
                         <div class="product-main_info">
                             <h1 class="product-main_title"><?php echo $rowPdt['Ten']; ?></h1>
                             <div class="product-main_detail">
-                                <label for="">Năm:</label>
+                                <label for="">Chất liệu:</label>
                                 <a class="product-main_author" href=""><?php echo $rowPdt['TenCL']; ?></a><br>
                                 <label for="">Quốc gia:</label>
                                 <a class="product-main_category" href=""><?php echo $rowPdt['TenTL']; ?></a><br>
-                                <label for="">Chất Liệu:</label>
+                                <label for="">Size:</label>
                                 <a class="product-main_publisher" href=""><?php echo $rowPdt['TenNSX']; ?></a><br>
                             </div>
                             <p class="product-main_decribe"><?php echo $rowPdt['MoTa']; ?></p><a class="product-main_decribe-more" href="">Xem thêm</a>
@@ -165,16 +165,19 @@
                 </ul>
             </div>
             <div class="footer_top-nav">
-                <h3 class="footer_top-heading">GIỚI THIỆU</h3>
+                <h3 class="footer_top-heading">CHÍNH SÁCH</h3>
                 <ul class="footer_top-list">
                     <li class="footer_top-item">
-                        <a href="footer_top-link">divac divac divdc dicdc</a>
+                        <a href="footer_top-link">Chính sách bảo hành</a>
                     </li>
                     <li class="footer_top-item">
-                        <a href="footer_top-link">divac divac divdc dicdc</a>
+                        <a href="footer_top-link">Chính sách đổi trả</a>
                     </li>
                     <li class="footer_top-item">
-                        <a href="footer_top-link">divac divac divdc dicdc</a>
+                        <a href="footer_top-link">Chính sách giao nhận hàng</a>
+                    </li>
+                    <li class="footer_top-item">
+                        <a href="footer_top-link">Chính sách bảo mật</a>
                     </li>
                 </ul>
             </div>
@@ -196,25 +199,25 @@
                 </ul>
             </div>
             <div class="footer_top-nav">
-                <h3 class="footer_top-heading">DANH MỤC</h3>
+                <h3 class="footer_top-heading">Admin</h3>
                 <ul class="footer_top-list">
                     <li class="footer_top-item">
-                        <a href="footer_top-link">divac divac divdc dicdc</a>
+                        <a href="footer_top-link">Kiều Chí Nguyện</a>
                     </li>
                     <li class="footer_top-item">
-                        <a href="footer_top-link">divac divac divdc dicdc</a>
+                        <a href="footer_top-link">Lâm Vĩnh Phát</a>
                     </li>
                     <li class="footer_top-item">
-                        <a href="footer_top-link">divac divac divdc dicdc</a>
+                        <a href="footer_top-link">Ngô Thị Trúc Xuân</a>
                     </li>
                 </ul>
             </div>
         </footer>
         <footer class="footer_bot">
-            <p class="footer_bot-text footer_bot-address">Địa chỉ: Vĩnh Long. Tổng đài hỗ trợ: 0915629981 - Email:
+            <p class="footer_bot-text footer_bot-address">Địa chỉ: Trà Vinh. Tổng đài hỗ trợ: 0915629981 - Email:
                 chinguyen29825@gmai.com
             </p>
-            <p class="footer_bot-text footer_bot-license">© 2022 Bản quyền thuộc về TC</p>
+            <p class="footer_bot-text footer_bot-license">© 2024 Bản quyền thuộc về TVU</p>
         </footer>
     </footer>
 </body>

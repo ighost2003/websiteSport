@@ -310,8 +310,8 @@ header{
 .container-banner-parent{
 
 }
-.container-list-parent{
-    position: relative;
+.container-list-parent {
+    position: relative; /* Để các phần tử con có thể tràn ra ngoài */
 }
 .container_list{
     list-style: none;
@@ -335,8 +335,10 @@ header{
 .container-banner-top-img{
     display: flex;
 }
-.container-banner-bot-img{
+.container-banner-bot-img {
     display: flex;
+    float: left;
+    justify-content: flex-start;
 }
 .container-img-1{
     width: 700px;
@@ -345,6 +347,7 @@ header{
 .container-img-2{
     width: 300px;
     height: 273px;
+
 }
 /*container_list-nav-sub*/
 .container_nav-sub{
@@ -756,3 +759,5 @@ footer{
 .backManager:hover{
     cursor: pointer;
 }
+
+

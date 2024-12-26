@@ -248,7 +248,7 @@
             <p class="footer_bot-text footer_bot-address">Địa chỉ: Trà Vinh. Tổng đài hỗ trợ: 0915629981 - Email:
                 chinguyen29825@gmail.com
             </p>
-            <p class="footer_bot-text footer_bot-license">© 2023 Bản quyền thuộc về TVU</p>
+            <p class="footer_bot-text footer_bot-license">© 2024 Bản quyền thuộc về Nhóm NPX</p>
         </footer>
     </footer>
     <div class="modal-login modal">
