@@ -7,7 +7,7 @@ if (isset($_POST["submit-verify"]))
 
     require '../connection.php';
 
-    // mark email as verified
+    // mark email as verifieddddddddd
     $sql = "SELECT * FROM nguoidung WHERE MaXacNhan = '".$verification_code."'AND Email = '" . $email . "'";
     $result  = mysqli_query($conn, $sql);
 
